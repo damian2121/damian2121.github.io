@@ -1,0 +1,16 @@
+$tag: #{'div'};
+$class: 'Profile';
+
+.#{$class} {
+    flex-direction: column;
+    align-items: center;
+    .section__container {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+:export {
+    CLASS: $class;
+    TAG: $tag;
+}

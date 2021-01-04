@@ -1,0 +1,12 @@
+$tag: #{'div'};
+$class: 'flex';
+
+##{$class} {
+    display: flex;
+}
+
+:export {
+    CLASS: $class;
+    TAG: $tag;
+    ID: 'vamos';
+}
