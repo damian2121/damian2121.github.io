@@ -21,6 +21,7 @@ import Fab from '@material-ui/core/Fab';
 import SearchIcon from '@material-ui/icons/Search';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import Profile from './Profile';
+import WorkExperience from './WorkExperience';
 
 export const NAME = 'Home';
 
@@ -68,7 +69,7 @@ export function Component(props) {
                         <Profile />
                     </TabPanel>
                     <TabPanel value={value} index={1} className={classes.profile}>
-                        <Profile />
+                        <WorkExperience />
                     </TabPanel>
                     <TabPanel value={value} index={2} className={classes.profile}>
                         <Profile />
