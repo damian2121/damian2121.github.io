@@ -84,7 +84,7 @@ export function Component(props) {
                                         <ListItemText primary="Localidad: Florencio Varela" />
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemText primary="Direccion: Rio san borombon 3482" />
+                                        <ListItemText primary="Direccion: ******" />
                                     </ListItem>
                                 </List>
                             </Paper>
